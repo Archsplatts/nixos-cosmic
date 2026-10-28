@@ -55,7 +55,7 @@ echo -e "${JAUNE}[4/4] Génération de la configuration${NC}"
 echo -e "${JAUNE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}\n"
 
 sudo nixos-rebuild switch
-rm -rf $HOME/nixos
+rm -rf $HOME/nixos-cosmic
 
 echo -e "${VERT}╔════════════════════════════════════════╗${NC}"
 echo -e "${VERT}║  Installation terminée avec succès !   ║${NC}"
