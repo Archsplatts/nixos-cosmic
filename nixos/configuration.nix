@@ -29,6 +29,7 @@
   console.keyMap = "fr";
 
   environment.cosmic.excludePackages = with pkgs; [
+    cosmic-files
     cosmic-player
     cosmic-term
   ];
@@ -54,6 +55,13 @@
     description = "bloods";
     extraGroups = [ "networkmanager" "wheel" ];
   };
+
+ # ─── Programmes ─────────────────────────────────────────
+  programs.thunar.enable = true;
+  programs.thunar.plugins = with pkgs; [
+    thunar-archive-plugin 
+    thunar-volman
+  ];
 
   # ─── Services désactivés ────────────────────────────────
   systemd.services.ModemManager.enable = false;
