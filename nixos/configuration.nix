@@ -29,8 +29,6 @@
   console.keyMap = "fr";
 
   environment.cosmic.excludePackages = with pkgs; [
-    cosmic-applibrary
-    cosmic-files
     cosmic-player
     cosmic-term
   ];
