@@ -1,0 +1,37 @@
+#!/bin/sh
+
+options="Ask Brave\0icon\x1fgnome-robots
+Films\0icon\x1fphotofilmstrip
+NixOS Wiki\0icon\x1fdistributor-logo-nixos
+Paquets Nix\0icon\x1fdistributor-logo-nixos
+ProtonDB\0icon\x1fdistributor-logo-steamos
+Twitch\0icon\x1ftwitch-indicator
+Youtube\0icon\x1fyoutube"
+
+selection=$(echo -e "$options" | rofi -dmenu -show-icons -icon-theme "Papirus" -config ~/.config/rofi/web-menu.rasi)
+
+if [[ -n "$selection" ]]; then
+    case "$selection" in
+		"Ask Brave")
+   		   	brave https://search.brave.com/ask
+   		   	;;
+   		"Films")
+   		   	brave https://movix.zip
+   		   	;;
+		"NixOS Wiki")
+   			brave https://wiki.nixos.org/wiki/NixOS_Wiki
+   			;;
+  		"Paquets Nix")
+  			brave https://search.nixos.org/packages
+  			;;          
+        "ProtonDB")
+            brave https://www.protondb.com
+            ;;
+		"Twitch")
+			brave https://www.twitch.tv/directory
+            ;;
+        "Youtube")                    
+            brave https://www.youtube.com
+            ;; 
+    esac
+fi   
