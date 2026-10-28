@@ -10,6 +10,7 @@
 		pkgs.dust
 		pkgs.eza
 		pkgs.fastfetch
+		pkgs.file-roller
 		pkgs.foot
 		pkgs.git
 		pkgs.gnome-disk-utility
