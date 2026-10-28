@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=COSMIC Files
+Name[fr]=COSMIC Files
+...
+Exec=cosmic-files %U
+Icon=com.system76.CosmicFiles
+Type=Application
+Categories=COSMIC;Utility;FileManager;
+MimeType=inode/directory;   
+Hidden=true
