@@ -26,6 +26,7 @@
 		pkgs.termdown
 		pkgs.thunderbird
 		pkgs.trash-cli
+		pkgs.tumbler
 		pkgs.unzip
 		pkgs.webkitgtk_4_1
 		pkgs.xz
