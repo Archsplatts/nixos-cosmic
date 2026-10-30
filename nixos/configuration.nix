@@ -55,7 +55,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
   };
 
- # ─── Programmes ─────────────────────────────────────────
+  # ─── Programmes ─────────────────────────────────────────
   programs.thunar.enable = true;
   programs.thunar.plugins = with pkgs; [
     thunar-archive-plugin 
