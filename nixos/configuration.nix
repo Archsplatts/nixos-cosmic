@@ -14,7 +14,7 @@
   boot.loader.systemd-boot.configurationLimit = 5;
 
   # ─── Réseau ─────────────────────────────────────────────
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "nixos"; 
   networking.networkmanager.enable = true;
   
   # ─── Cosmic ─────────────────────────────────────────────
