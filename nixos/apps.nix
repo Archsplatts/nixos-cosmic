@@ -8,6 +8,7 @@
 		pkgs.calcurse
 		pkgs.discord
 		pkgs.dust
+		pkgs.easytag
 		pkgs.eza
 		pkgs.fastfetch
 		pkgs.file-roller
