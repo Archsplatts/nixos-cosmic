@@ -28,6 +28,7 @@
 		pkgs.thunderbird
 		pkgs.trash-cli
 		pkgs.tumbler
+		pkgs.tuxguitar
 		pkgs.unzip
 		pkgs.webkitgtk_4_1
 		pkgs.xz
