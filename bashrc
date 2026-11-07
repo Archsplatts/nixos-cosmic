@@ -12,7 +12,6 @@ alias upgrade="sudo nix-channel --add https://channels.nixos.org/nixos-26.11 nix
 #   UTILS
 alias bashrc="micro $HOME/.bashrc && source $HOME/.bashrc"
 alias cdt="cd $HOME/Téléchargements"
-alias class="xprop | grep WM_CLASS"
 alias conf="micro /etc/nixos/configuration.nix"
 alias ff="fastfetch"
 alias fm="yazi"
