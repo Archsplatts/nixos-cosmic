@@ -3,7 +3,6 @@ export EDITOR="micro"
 export MICRO_TRUECOLOR=1
 
 #   Nix
-alias clean="sudo nix-collect-garbage"
 alias dg="sudo nix-env -p /nix/var/nix/profiles/system --delete-generations +5"
 alias ncg="sudo nix-collect-garbage"
 alias nrs="sudo nixos-rebuild switch"
