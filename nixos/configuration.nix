@@ -55,6 +55,15 @@
     extraGroups = [ "networkmanager" "wheel" ];
   };
 
+  # ─── Son ──────────────────────────────────────────────── 
+  security.rtkit.enable = true;
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
+
   # ─── Programmes ─────────────────────────────────────────
   programs.thunar.enable = true;
   programs.thunar.plugins = with pkgs; [
